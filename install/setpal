@@ -1,0 +1,124 @@
+#!/bin/sh
+
+# This script loads one of the tangere-terminal palettes (light or dark) into
+# your terminal.
+
+test "$#" -eq 1 || {
+    echo 'Usage: setpal l OR setpal d' >&2
+    exit 1
+}
+
+# ------------------------------------------------------------
+# Color utilities
+# ------------------------------------------------------------
+
+# Control codes from:
+# https://www.xfree86.org/4.8.0/ctlseqs.html
+
+Osc='\e]'       # Operating System Command, ESC ]
+St='\e\\'       # String Terminator, ESC \
+
+paint() {
+    local num=$1
+    local color=$2
+    printf "${Osc}4;${num};rgb:${color}${St}"
+}
+
+paintfg() {
+    local color=$1
+    printf "${Osc}10;rgb:${color}${St}"
+}
+
+paintbg() {
+    local color=$1
+    printf "${Osc}11;rgb:${color}${St}"
+}
+
+# ------------------------------------------------------------
+# Color definitions
+# ------------------------------------------------------------
+
+variant=$1
+case $variant in
+    *l*)                                # => light variant HSV
+
+        Background=fd/fd/fa
+        Foreground=00/00/00
+
+        TextualBlack=ff/ff/ff
+
+        Red=9c/34/1f                    # 10    80      61
+        Green=00/4c/73                  # 200   100     45
+        Yellow=80/56/19                 # 36    80      50
+        Blue=22/33/55                   # 220   60      33
+        Magenta=66/3d/52                # 329   40      40
+        Cyan=4b/53/63                   # 220   24      39
+
+        White=89/8e/99
+
+        BrightBlack=68/68/68
+
+        BrightRed=9c/34/1f
+        BrightGreen=00/4c/73
+        BrightYellow=40/29/0a
+        BrightBlue=22/33/55
+        BrightMagenta=66/3d/52
+        BrightCyan=00/2a/40
+
+        WhiteMask=d1/d1/d1
+    ;;
+
+    *d*)                                # => dark variant HSV
+
+        Background=1a/29/38
+        Foreground=fd/fd/d9
+
+        TextualBlack=00/00/00
+
+        Red=f2/82/6d                    # 9     55      95
+        Green=6d/af/b5                  # 185   40      71
+        Yellow=e0/ba/70                 # 40    50      88
+        Blue=8f/b4/cd                   # 204   30      80
+        Magenta=bb/98/d9                # 272   30      85
+        Cyan=b2/ba/bf                   # 203   7       75
+
+        White=e6/e4/d3
+
+        BrightBlack=b3/b3/b3
+
+        BrightRed=f2/82/6d
+        BrightGreen=6d/af/b5
+        BrightYellow=ff/dd/99
+        BrightBlue=8f/b4/cd
+        BrightMagenta=bb/98/d9
+        BrightCyan=a9/c9/cc
+
+        WhiteMask=2f/46/56
+    ;;
+esac
+
+# ------------------------------------------------------------
+# Actual colorizing
+# ------------------------------------------------------------
+
+paintbg $Background
+paintfg $Foreground
+
+paint 0 $TextualBlack
+paint 1 $Red
+paint 2 $Green
+paint 3 $Yellow
+paint 4 $Blue
+paint 5 $Magenta
+paint 6 $Cyan
+paint 7 $White
+
+paint 8  $BrightBlack
+paint 9  $BrightRed
+paint 10 $BrightGreen
+paint 11 $BrightYellow
+paint 12 $BrightBlue
+paint 13 $BrightMagenta
+paint 14 $BrightCyan
+paint 15 $WhiteMask
+

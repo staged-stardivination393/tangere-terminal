@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Example of git color configuration
+
+git config set --global color.ui "auto"
+
+git config set --global color.blame.repeatedlines "yellow"
+
+git config set --global color.branch.current "cyan bold"
+
+git config set --global color.diff.meta "bold"
+git config set --global color.diff.commit "yellow"
+git config set --global color.diff.frag "black cyan"
+git config set --global color.diff.old "black magenta"
+git config set --global color.diff.new "black yellow"
+git config set --global color.diff.oldMoved "black magenta"
+git config set --global color.diff.newMoved "black cyan"
+git config set --global color.diff.whitespace "black cyan"
+
+git config set --global color.decorate.HEAD "cyan bold"
+git config set --global color.decorate.branch "green bold"
+git config set --global color.decorate.remoteBranch "yellow bold"
+
+git config set --global color.status.added "green bold"
+git config set --global color.status.changed "cyan bold"
+git config set --global color.status.untracked "black cyan"
+

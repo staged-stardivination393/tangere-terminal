@@ -1,0 +1,254 @@
+--------------------------------------------------------------------------------
+Format: alacritty
+--------------------------------------------------------------------------------
+Light palette
+---------------
+
+[colors.primary]
+foreground = '#000000'
+background = '#fdfdfa'
+
+[colors.normal]
+black = '#ffffff'
+red = '#9c341f'
+green = '#004c73'
+yellow = '#805619'
+blue = '#223355'
+magenta = '#663d52'
+cyan = '#4b5363'
+white = '#898e99'
+
+[colors.bright]
+black = '#686868'
+red = '#9c341f'
+green = '#004c73'
+yellow = '#40290a'
+blue = '#223355'
+magenta = '#663d52'
+cyan = '#002a40'
+white = '#d1d1d1'
+
+---------------
+Dark palette
+---------------
+
+[colors.primary]
+foreground = '#fdfdd9'
+background = '#1a2938'
+
+[colors.normal]
+black = '#000000'
+red = '#f2826d'
+green = '#6dafb5'
+yellow = '#e0ba70'
+blue = '#8fb4cd'
+magenta = '#bb98d9'
+cyan = '#b2babf'
+white = '#e6e4d3'
+
+[colors.bright]
+black = '#b3b3b3'
+red = '#f2826d'
+green = '#6dafb5'
+yellow = '#ffdd99'
+blue = '#8fb4cd'
+magenta = '#bb98d9'
+cyan = '#a9c9cc'
+white = '#2f4656'
+
+--------------------------------------------------------------------------------
+Format: kitty
+--------------------------------------------------------------------------------
+Light palette
+---------------
+
+foreground #000000
+background #fdfdfa
+color0     #ffffff
+color1     #9c341f
+color2     #004c73
+color3     #805619
+color4     #223355
+color5     #663d52
+color6     #4b5363
+color7     #898e99
+color8     #686868
+color9     #9c341f
+color10    #004c73
+color11    #40290a
+color12    #223355
+color13    #663d52
+color14    #002a40
+color15    #d1d1d1
+
+---------------
+Dark palette
+---------------
+
+foreground #fdfdd9
+background #1a2938
+color0     #000000
+color1     #f2826d
+color2     #6dafb5
+color3     #e0ba70
+color4     #8fb4cd
+color5     #bb98d9
+color6     #b2babf
+color7     #e6e4d3
+color8     #b3b3b3
+color9     #f2826d
+color10    #6dafb5
+color11    #ffdd99
+color12    #8fb4cd
+color13    #bb98d9
+color14    #a9c9cc
+color15    #2f4656
+
+--------------------------------------------------------------------------------
+Format: lxterminal
+--------------------------------------------------------------------------------
+Light palette
+---------------
+
+fgcolor=rgb(0,0,0)
+bgcolor=rgb(253,253,250)
+palette_color_0=rgb(255,255,255)
+palette_color_1=rgb(156,52,31)
+palette_color_2=rgb(0,76,115)
+palette_color_3=rgb(128,86,25)
+palette_color_4=rgb(34,51,85)
+palette_color_5=rgb(102,61,82)
+palette_color_6=rgb(75,83,99)
+palette_color_7=rgb(137,142,153)
+palette_color_8=rgb(104,104,104)
+palette_color_9=rgb(156,52,31)
+palette_color_10=rgb(0,76,115)
+palette_color_11=rgb(64,41,10)
+palette_color_12=rgb(34,51,85)
+palette_color_13=rgb(102,61,82)
+palette_color_14=rgb(0,42,64)
+palette_color_15=rgb(209,209,209)
+
+---------------
+Dark palette
+---------------
+
+fgcolor=rgb(253,253,217)
+bgcolor=rgb(26,41,56)
+palette_color_0=rgb(0,0,0)
+palette_color_1=rgb(242,130,109)
+palette_color_2=rgb(109,175,181)
+palette_color_3=rgb(224,186,112)
+palette_color_4=rgb(143,180,205)
+palette_color_5=rgb(187,152,217)
+palette_color_6=rgb(178,186,191)
+palette_color_7=rgb(230,228,211)
+palette_color_8=rgb(179,179,179)
+palette_color_9=rgb(242,130,109)
+palette_color_10=rgb(109,175,181)
+palette_color_11=rgb(255,221,153)
+palette_color_12=rgb(143,180,205)
+palette_color_13=rgb(187,152,217)
+palette_color_14=rgb(169,201,204)
+palette_color_15=rgb(47,70,86)
+
+--------------------------------------------------------------------------------
+Format: tilda
+--------------------------------------------------------------------------------
+Light palette
+---------------
+
+palette = {65535, 65535, 65535, 40092, 13364, 7967, 0, 19532, 29555, 32896, 22102, 6425, 8738, 13107, 21845, 26214, 15677, 21074, 19275, 21331, 25443, 35209, 36494, 39321, 26728, 26728, 26728, 40092, 13364, 7967, 0, 19532, 29555, 16448, 10537, 2570, 8738, 13107, 21845, 26214, 15677, 21074, 0, 10794, 16448, 53713, 53713, 53713} 
+
+back_red=65021
+back_green=65021
+back_blue=64250
+
+text_red=0
+text_green=0
+text_blue=0
+
+---------------
+Dark palette
+---------------
+
+palette = {0, 0, 0, 62194, 33410, 28013, 28013, 44975, 46517, 57568, 47802, 28784, 36751, 46260, 52685, 48059, 39064, 55769, 45746, 47802, 49087, 59110, 58596, 54227, 46003, 46003, 46003, 62194, 33410, 28013, 28013, 44975, 46517, 65535, 56797, 39321, 36751, 46260, 52685, 48059, 39064, 55769, 43433, 51657, 52428, 12079, 17990, 22102} 
+
+back_red=6682
+back_green=10537
+back_blue=14392
+
+text_red=65021
+text_green=65021
+text_blue=55769
+
+--------------------------------------------------------------------------------
+Format: xfce4-terminal
+*May need rebooting to take effect.*
+--------------------------------------------------------------------------------
+Light palette
+---------------
+
+<property name="color-foreground" type="string" value="#000000000000"/>
+<property name="color-background" type="string" value="#fdfdfdfdfafa"/>
+
+<property name="color-palette" type="string" value="#ffffff;#9c341f;#004c73;#805619;#223355;#663d52;#4b5363;#898e99;#686868;#9c341f;#004c73;#40290a;#223355;#663d52;#002a40;#d1d1d1"/>
+
+---------------
+Dark palette
+---------------
+
+<property name="color-foreground" type="string" value="#fdfdfdfdd9d9"/>
+<property name="color-background" type="string" value="#1a1a29293838"/>
+
+<property name="color-palette" type="string" value="#000000;#f2826d;#6dafb5;#e0ba70;#8fb4cd;#bb98d9;#b2babf;#e6e4d3;#b3b3b3;#f2826d;#6dafb5;#ffdd99;#8fb4cd;#bb98d9;#a9c9cc;#2f4656"/>
+
+--------------------------------------------------------------------------------
+Format: Xresource (e.g, xterm, urxvt)
+Takes effect after calling `xrdb` on the resource file.
+--------------------------------------------------------------------------------
+Light palette
+---------------
+
+*foreground: rgb:00/00/00
+*background: rgb:fd/fd/fa
+*color0:     rgb:ff/ff/ff
+*color1:     rgb:9c/34/1f
+*color2:     rgb:00/4c/73
+*color3:     rgb:80/56/19
+*color4:     rgb:22/33/55
+*color5:     rgb:66/3d/52
+*color6:     rgb:4b/53/63
+*color7:     rgb:89/8e/99
+*color8:     rgb:68/68/68
+*color9:     rgb:9c/34/1f
+*color10:    rgb:00/4c/73
+*color11:    rgb:40/29/0a
+*color12:    rgb:22/33/55
+*color13:    rgb:66/3d/52
+*color14:    rgb:00/2a/40
+*color15:    rgb:d1/d1/d1
+
+---------------
+Dark palette
+---------------
+
+*foreground: rgb:fd/fd/d9
+*background: rgb:1a/29/38
+*color0:     rgb:00/00/00
+*color1:     rgb:f2/82/6d
+*color2:     rgb:6d/af/b5
+*color3:     rgb:e0/ba/70
+*color4:     rgb:8f/b4/cd
+*color5:     rgb:bb/98/d9
+*color6:     rgb:b2/ba/bf
+*color7:     rgb:e6/e4/d3
+*color8:     rgb:b3/b3/b3
+*color9:     rgb:f2/82/6d
+*color10:    rgb:6d/af/b5
+*color11:    rgb:ff/dd/99
+*color12:    rgb:8f/b4/cd
+*color13:    rgb:bb/98/d9
+*color14:    rgb:a9/c9/cc
+*color15:    rgb:2f/46/56
+
